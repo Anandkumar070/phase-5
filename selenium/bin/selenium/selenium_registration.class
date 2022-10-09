@@ -1,0 +1,25 @@
+Êþº¾   4 z   selenium/selenium_registration   java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this  Lselenium/selenium_registration; main ([Ljava/lang/String;)V  webdriver.chrome.driver  )D:\mphasis\phase 5\browser driver\chromedriver.exe
+     java/lang/System   
+setProperty 8(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;   'org/openqa/selenium/chrome/ChromeDriver
+  	 =https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804944%7Cb%7Cfacebook%20%27%7C&placement=&creative=550525804944&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D1007765%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIgKXQyLa3-gIVRSUrCh0rwQpyEAAYASAAEgI41vD_BwE
+   "  ! org/openqa/selenium/WebDriver # $ get (Ljava/lang/String;)V
+   & ' ( manage )()Lorg/openqa/selenium/WebDriver$Options;
+ * ,  + %org/openqa/selenium/WebDriver$Options - . window (()Lorg/openqa/selenium/WebDriver$Window;
+ 0 2  1 $org/openqa/selenium/WebDriver$Window 3  maximize 5 	firstname
+ 7 9  8 org/openqa/selenium/By : ; name ,(Ljava/lang/String;)Lorg/openqa/selenium/By;
+   = > ? 
+findElement :(Lorg/openqa/selenium/By;)Lorg/openqa/selenium/WebElement;  A java/lang/CharSequence C 	AnandKumar
+ E G  F org/openqa/selenium/WebElement H I sendKeys ([Ljava/lang/CharSequence;)V K lastname M K O 
+reg_email__ Q anand@gmail.com S reg_email_confirmation__ U password_step_input
+ 7 W X ; id Z  anand123 \ day ^ 18 ` month b jun d year f 2001 h _8esa
+ 7 j k ; 	className
+ E m n  click p 	websubmit args [Ljava/lang/String; driver Lorg/openqa/selenium/WebDriver; 
+SourceFile selenium_registration.java InnerClasses  Options Window !                /     *· ±    
+        
+         
+   	       ­    ¸ W» Y· L+¹  +¹ % ¹ ) ¹ / +4¸ 6¹ < ½ @YBS¹ D +J¸ 6¹ < ½ @YLS¹ D +N¸ 6¹ < ½ @YPS¹ D +R¸ 6¹ < ½ @YPS¹ D +T¸ V¹ < ½ @YYS¹ D +[¸ V¹ < ½ @Y]S¹ D +_¸ V¹ < ½ @YaS¹ D +c¸ V¹ < ½ @YeS¹ D +g¸ i¹ < ¹ l +o¸ 6¹ < ¹ l ±    
+   n    
+           (  9  A  R  Z  k  s  „  Œ !  " ¥ $ ¶ % ¾ ' Ï ( × * è + ð - û .  0
+ 1 2 
+       q r    s t   u    v w     *   x	 0   y	
