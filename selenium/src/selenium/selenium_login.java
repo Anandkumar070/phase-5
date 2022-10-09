@@ -9,7 +9,7 @@ public class selenium_login{
 	    {
 	        System.setProperty(
 	            "webdriver.chrome.driver",
-	            "C:\\Users\\hema1\\Downloads\\chromedriver.exe");
+	            "D:\\mphasis\\phase 5\\browser driver\\chromedriver.exe");
 	        WebDriver driver = new ChromeDriver();
 	        
 	        driver.get("https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY0MzY3NDQ2LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D");
